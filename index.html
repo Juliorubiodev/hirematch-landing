@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HireMatch - Conecta con tu próxima oportunidad laboral. Matching inteligente entre candidatos y reclutadores.">
+    <title>HireMatch - Conecta con tu próxima oportunidad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" fill="currentColor" />
+                    </svg>
+                    <span class="logo-text">HireMatch</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Características</a>
+                    <a href="#how-it-works">Cómo Funciona</a>
+                    <a href="#benefits">Beneficios</a>
+                    <a href="#cta" class="btn-primary">Comenzar</a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Conecta con tu <span class="gradient-text">próxima oportunidad</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        El matching inteligente que revoluciona la búsqueda de empleo.
+                        Desliza, conecta y encuentra el trabajo perfecto o el talento ideal.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="https://www.figma.com/proto/BaxvVsEUecrZigeTWRJqTY/Hire-Match-Prototipo?node-id=72-5133&t=IGlq92IonVi9cVCB-1"
+                            class="btn-primary btn-large" target="_blank">
+                            <span>Probar Demo</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#how-it-works" class="btn-secondary btn-large">Conocer Más</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-target="1000">0</div>
+                            <div class="stat-label">Matches Exitosos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-label">Empresas Activas</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="95">0</div>
+                            <div class="stat-label">% Satisfacción</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-visual">
+                        <div class="floating-card card-1">
+                            <div class="profile-card">
+                                <div class="profile-avatar">S</div>
+                                <h3>Senior Developer</h3>
+                                <p class="profile-location">📍 San Francisco</p>
+                                <div class="profile-tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">TypeScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-notification">
+                            <div class="match-icon">❤️</div>
+                            <span>It's a Match!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Características que marcan la diferencia</h2>
+                <p class="section-subtitle">Todo lo que necesitas para encontrar el match perfecto</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M19 3H5C3.89 3 3 3.89 3 5V19C3 20.11 3.89 21 5 21H19C20.11 21 21 20.11 21 19V5C21 3.89 20.11 3 19 3ZM12 17L7 12L8.41 10.59L12 14.17L15.59 10.59L17 12L12 17Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Swipe Matching</h3>
+                    <p class="feature-description">
+                        Desliza para descubrir ofertas o candidatos. Like para mostrar interés,
+                        dislike para continuar explorando.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Perfiles Duales</h3>
+                    <p class="feature-description">
+                        Dos experiencias optimizadas: una para candidatos buscando empleo
+                        y otra para empresas buscando talento.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M10 18H14V16H10V18ZM3 6V8H21V6H3ZM6 13H18V11H6V13Z" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Filtros Inteligentes</h3>
+                    <p class="feature-description">
+                        Personaliza tu búsqueda por ubicación, salario, modalidad de trabajo
+                        y habilidades específicas.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H6L4 18V4H20V16Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Chat en Tiempo Real</h3>
+                    <p class="feature-description">
+                        Comunícate instantáneamente después de un match.
+                        Coordina entrevistas y resuelve dudas al momento.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM10 17L6 13L7.41 11.59L10 14.17L16.59 7.58L18 9L10 17Z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Verificación de Skills</h3>
+                    <p class="feature-description">
+                        Valida tus habilidades profesionales para destacar tu perfil
+                        y aumentar tus posibilidades de match.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M7 2V13H10V22L17 10H13L17 2H7Z" fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Ofertas Flash</h3>
+                    <p class="feature-description">
+                        Destaca posiciones urgentes con ofertas flash de tiempo limitado
+                        para mayor visibilidad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Cómo funciona?</h2>
+                <p class="section-subtitle">Simple, rápido y efectivo</p>
+            </div>
+
+            <div class="role-tabs">
+                <button class="tab-btn active" data-role="candidate">Para Candidatos</button>
+                <button class="tab-btn" data-role="recruiter">Para Reclutadores</button>
+            </div>
+
+            <div class="role-content active" data-role="candidate">
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>Crea tu Perfil</h3>
+                            <p>Completa tu información profesional, añade tus habilidades y sube tu CV. Cuanto más
+                                completo, mejores matches.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">👤</div>
+                        </div>
+                    </div>
+                    <div class="step step-reverse">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>Explora Ofertas</h3>
+                            <p>Desliza por ofertas personalizadas según tus preferencias. Like a las que te interesan,
+                                dislike para continuar.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">💼</div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>Haz Match</h3>
+                            <p>Cuando tú y la empresa se dan like mutuamente, ¡es un match! Recibe una notificación
+                                instantánea.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">❤️</div>
+                        </div>
+                    </div>
+                    <div class="step step-reverse">
+                        <div class="step-number">04</div>
+                        <div class="step-content">
+                            <h3>Conecta y Consigue</h3>
+                            <p>Chatea con el reclutador, coordina entrevistas y consigue tu próximo trabajo ideal.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">💬</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="role-content" data-role="recruiter">
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>Registra tu Empresa</h3>
+                            <p>Crea el perfil corporativo de tu empresa con información relevante y atractiva para
+                                candidatos.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">🏢</div>
+                        </div>
+                    </div>
+                    <div class="step step-reverse">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>Publica Ofertas</h3>
+                            <p>Define los requisitos, condiciones y habilidades necesarias. Usa ofertas flash para
+                                posiciones urgentes.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">📝</div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>Descubre Talento</h3>
+                            <p>Explora perfiles de candidatos cualificados. Desliza para encontrar el talento perfecto
+                                para tu equipo.</p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">🎯</div>
+                        </div>
+                    </div>
+                    <div class="step step-reverse">
+                        <div class="step-number">04</div>
+                        <div class="step-content">
+                            <h3>Contrata Rápido</h3>
+                            <p>Contacta directamente con candidatos interesados y acelera tu proceso de contratación.
+                            </p>
+                        </div>
+                        <div class="step-visual">
+                            <div class="visual-placeholder">✅</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Por qué elegir HireMatch?</h2>
+                <p class="section-subtitle">La plataforma que transforma la búsqueda de empleo</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Rápido y Eficiente</h3>
+                    <p>Reduce el tiempo de búsqueda de semanas a días con nuestro sistema de matching inteligente.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Altamente Personalizado</h3>
+                    <p>Algoritmo que aprende de tus preferencias para mostrarte solo las oportunidades más relevantes.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔒</div>
+                    <h3>100% Seguro</h3>
+                    <p>Tus datos están protegidos. Solo las empresas con las que haces match pueden ver tu información
+                        completa.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📱</div>
+                    <h3>Móvil First</h3>
+                    <p>Busca empleo desde cualquier lugar. Interfaz optimizada para una experiencia móvil perfecta.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💡</div>
+                    <h3>Sin Intermediarios</h3>
+                    <p>Conexión directa entre candidatos y reclutadores. Sin agencias, sin comisiones ocultas.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌍</div>
+                    <h3>Trabajo Remoto</h3>
+                    <p>Filtra por modalidad: remoto, híbrido o presencial. Encuentra oportunidades en cualquier parte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para encontrar tu match perfecto?</h2>
+                <p class="cta-subtitle">Únete a miles de profesionales y empresas que ya están conectando</p>
+                <div class="cta-buttons">
+                    <a href="https://www.figma.com/proto/BaxvVsEUecrZigeTWRJqTY/Hire-Match-Prototipo?node-id=72-5133&t=IGlq92IonVi9cVCB-1"
+                        class="btn-primary btn-large" target="_blank">
+                        Comenzar Ahora
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="#features" class="btn-outline btn-large">Ver Características</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" fill="currentColor" />
+                        </svg>
+                        <span>HireMatch</span>
+                    </div>
+                    <p class="footer-description">
+                        Conectando talento con oportunidades a través de matching inteligente.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#how-it-works">Cómo Funciona</a></li>
+                        <li><a href="#benefits">Beneficios</a></li>
+                        <li><a href="https://www.figma.com/proto/BaxvVsEUecrZigeTWRJqTY/Hire-Match-Prototipo?node-id=72-5133&t=IGlq92IonVi9cVCB-1"
+                                target="_blank">Demo</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HireMatch. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/juliocrubiom/" target="_blank" aria-label="LinkedIn">in</a>
+                    <a href="https://juliorubio.dev/" target="_blank" aria-label="Portfolio">🌐</a>
+                    <a href="https://github.com/Juliorubiodev" target="_blank" aria-label="GitHub">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
